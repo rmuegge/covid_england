@@ -5,6 +5,8 @@ Description of files:
 
 "coviddata.csv" - contains the weekly number of deaths, expected deaths, and estimated risks for each LAD in the English mainland. 
 
+"W_nbhd_matrix.rds" - contains the neighbourhood matrix that is used to fit the model.
+
 "IMD_index.csv" - contains the average rank of IMD values in the LSOAs within each LAD, used to rank the LADs according to deprivation.
 
 "R - code for paper.R" - R file which will load required libraries, fit the models, read in the data, and produce most plots (except for maps) and numerical summaries presented in the 'Results' section of the paper.  
