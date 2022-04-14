@@ -7,14 +7,7 @@ Description of files:
 
 "IMD_index.csv" - contains the average rank of IMD values in the LSOAs within each LAD, used to rank the LADs according to deprivation.
 
-"R - data section.R" - R file which will load required libraries, read in the data, and produce the plots, numerical summaries, and tests presented in the 'Materials and Methods' section of the paper.  
-
-"R - results.R" - R file which will load required libraries, read in the data, and produce the plots and numerical summaries presented in the 'Results' section of the paper.  
-
-"R - MCMC.R" - R file which will load required libraries, read in the data, and run the functions that were used to obtain the fitted values. The code also produces trace plots for the AR(2) model which were used to check the convergence of the algorithm.  
+"R - code for paper.R" - R file which will load required libraries, fit the models, read in the data, and produce most plots (except for maps) and numerical summaries presented in the 'Results' section of the paper.  
 
 # Supplementary materials 
 The supplementary materials are provided in the file "Supplementary Materials.docx". They contain mathematical formulas for the weekly expected number of deaths by LAD, trace plots for the MCMC simulation, a map that shows the regions of England, and plots for within-cluster sum of squares and average silhouette width that were used for the clustering analysis. 
-
-# A note on Shapefiles
-Shapefiles were obtained from the Open Geography Portal by the Office for National Statistics. While we used shapefiles from May 2020, they appear to be no longer available but files from December 2020 could be used instead: https://geoportal.statistics.gov.uk/datasets/ons::local-authority-districts-december-2020-uk-bfc/explore?location=55.340000%2C-3.316939%2C5.28
